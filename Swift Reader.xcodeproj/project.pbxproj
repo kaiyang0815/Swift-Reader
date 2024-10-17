@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BD65D4E42CC01CFD00E8862D /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = BD65D4E32CC01CFD00E8862D /* SwiftSoup */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		BD65D4B82CC00A1600E8862D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD65D4E42CC01CFD00E8862D /* SwiftSoup in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = "Swift Reader";
 			packageProductDependencies = (
+				BD65D4E32CC01CFD00E8862D /* SwiftSoup */,
 			);
 			productName = "Swift Reader";
 			productReference = BD65D4A62CC00A1400E8862D /* Swift Reader.app */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = BD65D49D2CC00A1400E8862D;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				BD65D4E22CC01CFD00E8862D /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = BD65D4A72CC00A1400E8862D /* Products */;
 			projectDirPath = "";
@@ -591,6 +600,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BD65D4E22CC01CFD00E8862D /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.7.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BD65D4E32CC01CFD00E8862D /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD65D4E22CC01CFD00E8862D /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BD65D49E2CC00A1400E8862D /* Project object */;
 }

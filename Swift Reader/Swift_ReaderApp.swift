@@ -11,7 +11,7 @@ import SwiftUI
 struct Swift_ReaderApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ExploreView()
         }
     }
 }
